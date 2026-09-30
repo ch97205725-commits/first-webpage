@@ -1,0 +1,50 @@
+/* 페이지 전체의 배경과 여백 */
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background-color: #f0f7f4;
+  font-family: Arial, sans-serif;
+  color: #333333;
+}
+
+/* 본문을 흰색 카드처럼 꾸미기 */
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* 큰 제목의 색상과 글자 크기 */
+h1 {
+  color: #27855b;
+  font-size: 32px;
+}
+
+/* 작은 제목의 글자 크기 */
+h2 {
+  font-size: 22px;
+}
+
+/* 소개 글의 줄 간격 */
+p {
+  line-height: 1.6;
+}
+
+/* 좋아하는 것 목록을 가로로 배치 */
+.favorites {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+/* 목록 항목의 배경과 여백 */
+.favorites li {
+  padding: 12px 18px;
+  background-color: #fff3c4;
+  border-radius: 8px;
+}
